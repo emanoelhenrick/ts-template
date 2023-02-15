@@ -1,7 +1,4 @@
 
 ```bash
-  git remote add origin (url do repo).git
-```
-```bash
-  git pull origin master 
+  git clone https://github.com/emanoelhenrick/node-ts-eslint-template
 ```
