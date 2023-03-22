@@ -1,8 +1,8 @@
 {
   "name": "untitled",
   "version": "1.0.0",
-  "description": "node template",
-  "main": "index.js",
+  "description": "",
+  "main": "src/server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts",
