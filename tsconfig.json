@@ -3,7 +3,6 @@
     "target": "ES6",                    
     "module": "CommonJS",                 
     "allowJs": true,
-    "moduleResolution": "nodenext",
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "outDir": "dist",
@@ -11,7 +10,10 @@
     "noImplicitAny": true
   },
   "include": [
-    "src",
-    "test"
+    "src"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts"
   ]
 }
